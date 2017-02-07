@@ -1,11 +1,11 @@
 import unittest
 
 test_modules = [
-  'specs.item_spec',
-  'specs.book_spec',
-  'specs.cd_spec',
-  'specs.bluray_spec',
-  'specs.digitalitem_spec'
+  'specs.item_spec'
+  #'specs.book_spec',
+  #'specs.cd_spec',
+  #'specs.bluray_spec',
+  #'specs.digitalitem_spec'
 ]
 
 suite = unittest.TestSuite()

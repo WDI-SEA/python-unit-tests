@@ -20,31 +20,31 @@ basic process:
 * Run test again (it should pass)
 * Refactor if necessary
 
-##Working in Pairs (recommended)
-
-Due to the TDD-nature of this assignment, it's recommended that you pair up
-with another person and work on this collaboratively. If you decide to take
-this route:
-
-* Have one person create the tests
-* Have the other person create the code to pass the tests
-* Each person should submit the same code via pull request
-
-###Tests
-Every class should have tests for all of the following:
-
-* Initializer
-* instance_of / inheritance
-* getters / setters (for each attribute)
-* methods
-  * Check return value
-  * Check that it behaves as expected
-* any other expected behaviors
+## Running the Tests
+This repo has unit tests all set up to make sure you're writing classes
+correctly. Run the tests and see if their passing.
 
 Navigate to the root of this repo and use this command to run the tests:
 
 ```
 python3 tests.py
+```
+
+If you get annoyed by lots of tests failing, you can modify the `tests.py`
+file to only run certain test_modules at a time. Open the file and comment
+out any spec for a class you haven't written yet.
+
+Here's an example of what the `test_modules` variable looks like when I
+comment it out so only the item_spec is running:
+
+```python
+test_modules = [
+  'specs.item_spec'
+  #'specs.book_spec',
+  #'specs.cd_spec',
+  #'specs.bluray_spec',
+  #'specs.digitalitem_spec'
+]
 ```
 
 ###Interactive Console
