@@ -97,14 +97,12 @@ Create these inheritance relationships:
   * Pages
   * Author
 * Cd < Item
-  * Tracks (number of)
   * Artist
+  * Tracks (number of)
   * Run time
 * Bluray < Item
   * Run time
   * Director
-  * Producer
-
 
 **Usage Example**
 
