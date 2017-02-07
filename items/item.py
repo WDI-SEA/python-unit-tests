@@ -12,6 +12,6 @@ class Item:
     else:
       return False
 
-  def stock(amount):
+  def stock(self, amount):
     self.quantity += amount
     return True

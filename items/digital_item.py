@@ -11,5 +11,5 @@ class DigitalItem(Item):
   def sell(self, amount):
     return True
 
-  def stock(amount):
+  def stock(self, amount):
     return True
